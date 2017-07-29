@@ -29,6 +29,7 @@
             '@angular/upgrade': 'npm:@angular/upgrade/bundles/upgrade.umd.js',
             '@angular/upgrade/static': 'npm:@angular/upgrade/bundles/upgrade-static.umd.js',
             '@angular/material': 'npm:@angular/material/bundles/material.umd.js',
+            '@angular/cdk': 'npm:@angular/cdk/bundles/cdk.umd.js',
             'systemjs': 'npm:systemjs/dist/system-production.js',
 
             // other libraries

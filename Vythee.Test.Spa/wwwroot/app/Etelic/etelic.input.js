@@ -7,24 +7,23 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 var core_1 = require("@angular/core");
-var HomeComponent = (function () {
-    function HomeComponent() {
-        this.title = 'app';
+var EtelicInput = (function () {
+    function EtelicInput() {
         this.eValueColl = [];
     }
-    HomeComponent.prototype.addInput = function (eValue) {
+    EtelicInput.prototype.addInput = function (eValue) {
         if (eValue) {
-            console.log(eValue);
             this.eValueColl.push(eValue);
+            console.log(eValue);
         }
     };
-    return HomeComponent;
+    return EtelicInput;
 }());
-HomeComponent = __decorate([
+EtelicInput = __decorate([
     core_1.Component({
-        templateUrl: './home.component.html',
-        styleUrls: ['./home.component.css']
+        templateUrl: './etelic.input.html',
+        selector: "etelic-input"
     })
-], HomeComponent);
-exports.HomeComponent = HomeComponent;
-//# sourceMappingURL=home.component.js.map
+], EtelicInput);
+exports.EtelicInput = EtelicInput;
+//# sourceMappingURL=etelic.input.js.map

@@ -38,7 +38,7 @@ import {
 
 import { HomeComponent } from './home.component';
 import { routing } from './home.routing';
-
+import { EtelicInput } from '../Etelic/etelic.input';
 @NgModule({
     exports: [
         // Material
@@ -78,7 +78,7 @@ import { routing } from './home.routing';
 export class MaterialModule { }
 
 @NgModule({
-    declarations: [HomeComponent],
+    declarations: [HomeComponent, EtelicInput], 
     imports: [
         routing,
         MaterialModule

@@ -7,24 +7,16 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 var core_1 = require("@angular/core");
-var HomeComponent = (function () {
-    function HomeComponent() {
-        this.title = 'app';
-        this.eValueColl = [];
+var AppComponent = (function () {
+    function AppComponent() {
     }
-    HomeComponent.prototype.addInput = function (eValue) {
-        if (eValue) {
-            console.log(eValue);
-            this.eValueColl.push(eValue);
-        }
-    };
-    return HomeComponent;
+    return AppComponent;
 }());
-HomeComponent = __decorate([
+AppComponent = __decorate([
     core_1.Component({
-        templateUrl: './home.component.html',
-        styleUrls: ['./home.component.css']
+        selector: 'app-root',
+        templateUrl: './app.component.html'
     })
-], HomeComponent);
-exports.HomeComponent = HomeComponent;
-//# sourceMappingURL=home.component.js.map
+], AppComponent);
+exports.AppComponent = AppComponent;
+//# sourceMappingURL=app.component.js.map

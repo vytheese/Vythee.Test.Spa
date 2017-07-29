@@ -19,6 +19,7 @@ import { routing } from './app.routing';
     bootstrap: [AppComponent],
     providers: [{ provide: LocationStrategy, useClass: HashLocationStrategy }],
     imports: [
+        CommonModule,
         BrowserModule,
         MdProgressSpinnerModule,
         routing

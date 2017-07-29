@@ -18,14 +18,14 @@ var SplashComponent = (function () {
     SplashComponent.prototype.ngOnInit = function () {
         this.router.navigate(['/app']);
     };
-    SplashComponent = __decorate([
-        core_1.Component({
-            templateUrl: './splash.component.html',
-            styleUrls: ['./splash.component.css']
-        }),
-        __metadata("design:paramtypes", [router_1.Router])
-    ], SplashComponent);
     return SplashComponent;
 }());
+SplashComponent = __decorate([
+    core_1.Component({
+        templateUrl: './splash.component.html',
+        styleUrls: ['./splash.component.css']
+    }),
+    __metadata("design:paramtypes", [router_1.Router])
+], SplashComponent);
 exports.SplashComponent = SplashComponent;
 //# sourceMappingURL=splash.component.js.map

@@ -1,0 +1,9 @@
+﻿<h4>Etelic Input</h4>
+<input #eValueInput
+       (keyup.enter)="addInput(eValueInput.value)"
+       >
+
+<button (click)="addInput(eValueInput.value)">Add</button>
+
+<div>Value is : {{eValueColl.join(',')}}</div>
+<!--<ul><li *ngFor="let i of eValueColl">{{i}}</li></ul>-->
